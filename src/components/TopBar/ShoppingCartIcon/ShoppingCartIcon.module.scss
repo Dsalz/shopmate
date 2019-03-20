@@ -1,0 +1,18 @@
+@import "../../../styles/variables";
+
+.shoppingCartIcon {
+  background: url("../../../img/bag.png");
+  background-size: 20px auto;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.cartBadge span {
+  color: $red;
+  background-color: $white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: Montserrat;
+}
