@@ -3,7 +3,7 @@ import { create } from "jss";
 import React, { Component } from "react";
 import JssProvider from "react-jss/lib/JssProvider";
 import "./App.scss";
-import TopBar from "./components/TopBar/TopBar";
+import Homepage from "./components/Homepage/Homepage";
 
 const generateClassName = createGenerateClassName();
 const jss = create({
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <JssProvider jss={jss} generateClassName={generateClassName}>
-        <TopBar />
+        <Homepage/>
       </JssProvider>
     );
   }
