@@ -1,0 +1,20 @@
+.redTheme {
+  background-color: $red;
+  .loginBar {
+    background: $white;
+
+    a:hover,
+    a:active,
+    a.active {
+      color: $darkGray;
+    }
+  }
+  .loginMenu a {
+    color: $darkGray;
+    &:hover,
+    &:active,
+    .active {
+      color: $red;
+    }
+  }
+}

@@ -6,7 +6,7 @@ import {
 import { create } from "jss";
 import React, { Component } from "react";
 import JssProvider from "react-jss/lib/JssProvider";
-import "./App.css";
+import "./App.scss";
 import TopBar from "./components/TopBar/TopBar";
 import theme from "./theme";
 

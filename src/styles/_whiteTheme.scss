@@ -1,0 +1,74 @@
+.whiteTheme {
+  background-color: $white;
+
+  .logo {
+    color: $red;
+  }
+
+  .loginBar {
+    background: darken($smoke, 3%);
+
+    a:hover,
+    a:active,
+    a.active {
+      color: $darkGray;
+    }
+  }
+  .loginMenu a,
+  .topBarMenu a {
+    color: $darkGray;
+    &:hover,
+    &:active,
+    .active {
+      color: $red;
+    }
+  }
+  .shoppingCartIcon {
+    background-image: url("./img/bag-black.png");
+  }
+  .cartBadge span {
+    background: $red;
+    color: $white;
+  }
+  .menuButton {
+    color: $darkGray;
+  }
+
+  .searchIcon svg {
+    color: $darkGray;
+  }
+  .inputRoot {
+    border: 1px solid lighten($lightGray, 17.8%);
+  }
+  .inputInput {
+    color: $darkGray;
+    &::placeholder,
+    &::-webkit-input-placeholder,
+    &:placeholder-shown {
+      color: $lightGray;
+    }
+
+    &:-ms-input-placeholder,
+    &::-ms-input-placeholder {
+      color: $lightGray;
+    }
+
+    &:hover,
+    &:focus {
+      color: $darkGray;
+
+      &::placeholder,
+      &::-webkit-input-placeholder,
+      &:placeholder-shown {
+        color: $gray;
+        opacity: 0.85;
+      }
+
+      &:-ms-input-placeholder,
+      &::-ms-input-placeholder {
+        color: $gray;
+        opacity: 0.85;
+      }
+    }
+  }
+}

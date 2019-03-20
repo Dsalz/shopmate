@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.loginBar {
+  color: $darkGray;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2.4;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  a {
+    color: $red;
+    text-decoration: none;
+  }
+
+  .loginMenu {
+    line-height: 1;
+    ul li {
+      margin: 10px;
+    }
+  }
+}

@@ -3,17 +3,17 @@ import SearchIcon from "@material-ui/icons/Search";
 import React from "react";
 import classes from "./SearchBar.module.scss";
 
-const SearchBar = () => {
+const SearchBar = props => {
   return (
     <div className={classes.search}>
-      <div className={classes.searchIcon}>
+      <div className={`searchIcon ${classes.searchIcon}`}>
         <SearchIcon />
       </div>
       <InputBase
         placeholder="search anything"
         classes={{
-          root: classes.inputRoot,
-          input: classes.inputInput
+          root: `inputRoot ${classes.inputRoot}`,
+          input: `inputInput ${classes.inputInput}`
         }}
       />
     </div>

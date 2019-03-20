@@ -4,34 +4,52 @@ import IconButton from "@material-ui/core/IconButton";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import React from "react";
+import LoginBar from "../LoginBar/LoginBar";
 import Menu from "../Menu/Menu";
 import SearchBar from "./SearchBar/SearchBar";
 import classes from "./TopBar.module.scss";
 
 const TopBar = props => {
+  const theme = "gray";
+
+  const categories = [
+    { url: "/", title: "Women" },
+    { url: "/", title: "Men" },
+    { url: "/", title: "Kids" }
+  ];
+
   return (
     <>
-      <AppBar className={classes.appBar}>
+      <AppBar className={getClasses(classes.appBar, theme)}>
+        <LoginBar />
         <Toolbar>
-          <Typography variant="h6" color="inherit" className={classes.logo}>
+          <Typography
+            variant="h6"
+            color="inherit"
+            className={`logo ${classes.logo}`}
+          >
             Shopmate
           </Typography>
-          <Menu />
+
+          <Menu links={categories} className="topBarMenu" />
 
           <SearchBar />
 
           <IconButton color="inherit">
-            <Badge badgeContent={17} color="secondary">
-              <ShoppingCartIcon />
+            <Badge
+              badgeContent={6}
+              color="secondary"
+              className={`cartBadge ${classes.cartBadge}`}
+            >
+              <div className={`shoppingCartIcon ${classes.shoppingCartIcon}`} />
             </Badge>
           </IconButton>
 
           <IconButton
             color="inherit"
             aria-label="Menu"
-            className={classes.menuButton}
+            className={`menuButton ${classes.menuButton}`}
           >
             <MenuIcon />
           </IconButton>
@@ -39,6 +57,10 @@ const TopBar = props => {
       </AppBar>
     </>
   );
+};
+
+const getClasses = (cls, theme) => {
+  return `${cls} `.concat(theme + "Theme");
 };
 
 export default TopBar;

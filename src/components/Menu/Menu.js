@@ -1,13 +1,15 @@
 import React from "react";
-import classes from "./Menu.module.css";
+import classes from "./Menu.module.scss";
 
-const Menu = () => {
+const Menu = props => {
   return (
-    <nav className={classes.menu}>
+    <nav className={`${classes.menu} ${props.className}`}>
       <ul>
-        <li>Women</li>
-        <li>Men</li>
-        <li>Kids</li>
+        {props.links.map(link => (
+          <li key={link.title}>
+            <a href={link.url}>{link.title}</a>
+          </li>
+        ))}
       </ul>
     </nav>
   );

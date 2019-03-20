@@ -1,0 +1,57 @@
+.grayTheme {
+  background-color: $darkGray;
+
+  .loginBar {
+    background: $darkGray;
+    color: $white;
+
+    a:hover,
+    a:active,
+    a.active {
+      color: $white;
+    }
+  }
+  .loginMenu a {
+    color: $white;
+    &:hover,
+    &:active,
+    .active {
+      color: $red;
+    }
+  }
+  .topBarMenu a:hover,
+  .topBarMenu a:active,
+  .topBarMenu a.active {
+    color: $red;
+  }
+  .inputInput {
+    &::placeholder,
+    &::-webkit-input-placeholder,
+    &:placeholder-shown {
+      color: $white;
+    }
+
+    &:-ms-input-placeholder,
+    &::-ms-input-placeholder {
+      color: $white;
+    }
+
+    &:hover,
+    &:focus {
+      color: $darkGray;
+
+      &::placeholder,
+      &::-webkit-input-placeholder,
+      &:placeholder-shown {
+        color: $darkGray;
+        opacity: 0.85;
+      }
+
+      &:-ms-input-placeholder,
+      &::-ms-input-placeholder {
+        color: $darkGray;
+        opacity: 0.85;
+      }
+    }
+  }
+}

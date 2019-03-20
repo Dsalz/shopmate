@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.menu {
+  flex-grow: 1;
+  display: inline-flex;
+
+  ul {
+    margin: 0;
+    li {
+      display: inline-flex;
+      margin: 20px;
+      font-weight: bold;
+      font-size: 15px;
+
+      a {
+        color: $white;
+
+        &:hover,
+        &:active,
+        .active {
+          color: $darkGray;
+        }
+      }
+    }
+  }
+}
