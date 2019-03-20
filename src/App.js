@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <JssProvider jss={jss} generateClassName={generateClassName}>
-        <Homepage/>
+        <Homepage />
       </JssProvider>
     );
   }

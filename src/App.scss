@@ -4,6 +4,9 @@
 
 body {
   background-color: $smoke;
+  color: $darkGray;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0;
   padding: 113px 0 0;
   font-family: Montserrat;
@@ -23,4 +26,32 @@ body {
 a {
   text-decoration: none;
   transition: 0.1s all ease-in;
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+.button {
+  background-color: $red;
+  color: $white;
+  border-radius: 24px;
+  padding: 10px 42px;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: bold;
+
+  &.button-small {
+    padding: 5px 26px;
+  }
+  &.button-large {
+    border-radius: 100px;
+    padding: 15px 65px;
+  }
+
+  &:hover,
+  &:active,
+  &.active {
+    background: darken($red, 10%);
+  }
 }

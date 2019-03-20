@@ -2,15 +2,19 @@ import React from "react";
 import heroImg1x from "../../img/hero-1.jpg";
 import heroImg2x from "../../img/hero-1@2x.jpg";
 import heroImg3x from "../../img/hero-1@3x.jpg";
+import SaleBanner from "../SaleBanner/SaleBanner";
 
 const Hero = () => {
   return (
     <div>
       <img
-        srcset={`${heroImg3x} 1500w, ${heroImg2x} 1000w, ${heroImg1x} 500w`}
+        srcSet={`${heroImg3x} 1500w, ${heroImg2x} 1000w, ${heroImg1x} 500w`}
         src={heroImg1x}
         alt="hero"
       />
+      <div className="container">
+        <SaleBanner />
+      </div>
     </div>
   );
 };
