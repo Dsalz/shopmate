@@ -1,3 +1,17 @@
+## Styling
+
+This app uses Material UI.
+Overrides are done with CSS Modules because I prefer to keep my components lean, for scalability and ease of debugging purposes.
+In order to avoid marking style attributes with `!important`, I've changed the [CSS injection order](https://material-ui.com/customization/css-in-js/#css-injection-order)
+
+Theme defaults are found in `/src/theme.js` file.
+
+## TODOS:
+
+Add [webfontloader](https://github.com/typekit/webfontloader) - https://scotch.io/@micwanyoike/how-to-add-fonts-to-a-react-project
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
