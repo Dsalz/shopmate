@@ -11,7 +11,7 @@ import SearchBar from "./SearchBar/SearchBar";
 import classes from "./TopBar.module.scss";
 
 const TopBar = props => {
-  const theme = "gray";
+  const theme = "white";
 
   const categories = [
     { url: "/", title: "Women" },
@@ -23,7 +23,7 @@ const TopBar = props => {
     <>
       <AppBar className={getClasses(classes.appBar, theme)}>
         <LoginBar />
-        <Toolbar>
+        <Toolbar className="toolbar">
           <Typography
             variant="h6"
             color="inherit"
