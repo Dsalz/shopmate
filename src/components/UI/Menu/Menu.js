@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import classes from "./Menu.module.scss";
 
@@ -13,6 +14,10 @@ const Menu = props => {
       </ul>
     </nav>
   );
+};
+
+Menu.propTypes = {
+  links: PropTypes.array.isRequired
 };
 
 export default Menu;

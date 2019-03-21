@@ -3,7 +3,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import React from "react";
 import classes from "./SearchBar.module.scss";
 
-const SearchBar = props => {
+const SearchBar = () => {
   return (
     <div className={classes.search}>
       <div className={`searchIcon ${classes.searchIcon}`}>

@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "../UI/Menu/Menu";
 import classes from "./LoginBar.module.scss";
 
-const LoginBar = props => {
+const LoginBar = () => {
   const links = [
     { url: "/", title: "Daily Deals" },
     { url: "/", title: "Sell" },
