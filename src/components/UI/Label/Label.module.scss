@@ -5,6 +5,10 @@
   padding: 0 11px;
   display: inline-flex;
   font-weight: bold;
+  text-transform: capitalize;
+  position: absolute;
+  top: 5px;
+  left: 5px;
   &.green {
     background: $green;
   }
