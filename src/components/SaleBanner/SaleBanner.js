@@ -7,7 +7,7 @@ import classes from "./SaleBanner.module.scss";
 
 function SaleBanner() {
   return (
-    <div className={classes.saleBanner}>
+    <div className={`container ${classes.saleBanner}`}>
       <ImageWithLabel title="bag" img={bag} label="sale" />
       <div className={classes.text}>
         <h2>Vera Bradley</h2>

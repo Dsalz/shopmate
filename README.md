@@ -5,6 +5,7 @@ Overrides are done with CSS Modules because I prefer to keep my components lean,
 In order to avoid marking style attributes with `!important`, I've changed the [CSS injection order](https://material-ui.com/customization/css-in-js/#css-injection-order)
 
 Hero Image on home is responsive using srcset
+Paper HOC uses Flexbox
 
 ## TODOS:
 
