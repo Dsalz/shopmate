@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+.label {
+  color: $white;
+  padding: 0 11px;
+  display: inline-flex;
+  font-weight: bold;
+  &.green {
+    background: $green;
+  }
+  &.orange {
+    background: $orange;
+  }
+}

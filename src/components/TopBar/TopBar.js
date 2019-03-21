@@ -2,7 +2,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import React from "react";
 import LoginBar from "../LoginBar/LoginBar";
-import Menu from "../Menu/Menu";
+import Menu from "../UI/Menu/Menu";
 import Logo from "./Logo/Logo";
 import MenuIconButton from "./MenuIconButton/MenuIconButton";
 import SearchBar from "./SearchBar/SearchBar";

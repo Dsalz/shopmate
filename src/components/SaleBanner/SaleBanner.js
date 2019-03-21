@@ -1,10 +1,12 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
-import Paper from "../UI/Paper/Paper";
+import Paper from "../../hoc/Paper/Paper";
+import Label from "../UI/Label/Label";
 
 function SaleBanner() {
   return (
     <div>
+      <Label color="green">Sale</Label>
       This is a banner.
       <h2>Vera Bradley</h2>
       <p>
