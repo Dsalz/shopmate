@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.EmailForm {
+  margin-top: 24px;
+}
+.Email {
+  background: $white;
+  display: inline-flex;
+  border-radius: 18px;
+  margin-right: 8px;
+
+  > div {
+    margin: 0;
+  }
+  input {
+    padding: 8.5px 14px;
+  }
+  fieldset {
+    border: none;
+    height: 36px;
+  }
+  label {
+    color: lighten($lightGray, 2.5%);
+    font-family: $thirdFont;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    top: -14px;
+  }
+}

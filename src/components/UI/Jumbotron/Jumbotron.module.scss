@@ -1,0 +1,8 @@
+@import "../../../styles/variables";
+
+.Jumbotron {
+  background: darken($smoke, 3%);
+  text-align: center;
+  padding: 45px 235px;
+  font-weight: bold;
+}

@@ -22,7 +22,7 @@ const TopBar = () => {
     <>
       <AppBar className={getClasses(classes.appBar, theme)}>
         <LoginBar />
-        <Toolbar className="toolbar">
+        <Toolbar>
           <Logo />
           <Menu links={categories} className="topBarMenu" />
           <SearchBar />

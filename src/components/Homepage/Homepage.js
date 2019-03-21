@@ -3,6 +3,7 @@ import Banners from "../Banners/Banners";
 import Hero from "../Hero/Hero";
 import SaleBanner from "../SaleBanner/SaleBanner";
 import TopBar from "../TopBar/TopBar";
+import Jumbotron from "../UI/Jumbotron/Jumbotron";
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
         <Hero />
         <SaleBanner />
         <Banners />
+        <Jumbotron />
       </main>
     </>
   );

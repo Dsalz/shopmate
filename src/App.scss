@@ -19,6 +19,13 @@ h1 {
   letter-spacing: 2px;
   margin: 10px 0 5px;
 }
+
+h4 {
+  color: $red;
+  font: bold 24px $mainFont;
+  letter-spacing: 1px;
+}
+
 a {
   text-decoration: none;
   transition: 0.1s all ease-in;
@@ -47,7 +54,8 @@ p {
   font-weight: bold;
 
   &.button-small {
-    padding: 5px 26px;
+    padding: 7.5px 26px;
+    font-size: 12px;
   }
   &.button-large {
     border-radius: 100px;
