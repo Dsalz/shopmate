@@ -9,9 +9,23 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 113px 0 0;
-  font-family: Montserrat;
+  font-family: $mainFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font: bold 48px $titleFont;
+  letter-spacing: 2px;
+  margin: 10px 0 5px;
+}
+a {
+  text-decoration: none;
+  transition: 0.1s all ease-in;
+}
+
+p {
+  font-family: $thirdFont;
 }
 
 .container {
@@ -21,15 +35,6 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
-}
-
-a {
-  text-decoration: none;
-  transition: 0.1s all ease-in;
-}
-
-p {
-  font-family: "Open Sans";
 }
 
 .button {

@@ -8,11 +8,22 @@ const Paper = WrappedComponent => {
       const typeClass =
         this.props.type === "square" ? classes.square : classes.full;
 
-      const bgClass = this.props.bg === "blue" ? classes.blue : classes.gray;
+      const bgClass =
+        this.props.bg === "blue"
+          ? classes.blue
+          : this.props.bg === "yellow"
+          ? classes.yellow
+          : "";
+
+      const style = this.props.img
+        ? { backgroundImage: `url(${this.props.img})` }
+        : {};
 
       return (
         <div className={`${classes.paper} ${typeClass} ${bgClass}`}>
-          <WrappedComponent {...this.props} />
+          <div style={style} className={classes.bgImage}>
+            <WrappedComponent {...this.props} />
+          </div>
         </div>
       );
     }
@@ -21,7 +32,8 @@ const Paper = WrappedComponent => {
     type: "full"
   };
   hocComponent.propTypes = {
-    type: PropTypes.string.isRequired
+    type: PropTypes.string.isRequired,
+    img: PropTypes.string
   };
   return hocComponent;
 };

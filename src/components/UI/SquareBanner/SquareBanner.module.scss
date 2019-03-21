@@ -1,19 +1,10 @@
 @import "../../../styles/variables";
 
-.title {
-  font-family: "Playfair Display";
-  font-size: 48px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: $darkGray;
-  width: 100%;
-}
-
 .description {
   color: $red;
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
   width: 58%;
-  margin: 0 auto;
+  margin: 10px auto 0;
 }
