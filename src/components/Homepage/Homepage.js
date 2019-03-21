@@ -1,5 +1,6 @@
 import React from "react";
 import Banners from "../Banners/Banners";
+import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
 import SaleBanner from "../SaleBanner/SaleBanner";
 import TopBar from "../TopBar/TopBar";
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Banners />
         <Jumbotron />
       </main>
+      <Footer />
     </>
   );
 };

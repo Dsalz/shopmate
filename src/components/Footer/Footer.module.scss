@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.Footer {
+  background: $white;
+  padding: 52px 19px 56px;
+  display: flex;
+
+  .copyRight {
+    font-weight: 300;
+    font-family: $thirdFont;
+  }
+}

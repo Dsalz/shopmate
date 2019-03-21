@@ -1,0 +1,22 @@
+@import "../../../styles/variables";
+
+.FooterMenu {
+  width: 25%;
+  ul li {
+    margin: 0;
+    display: block;
+  }
+
+  a {
+    color: $darkGray;
+    font-weight: 300;
+    font-family: $thirdFont;
+    font-size: 16px;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: $red;
+    }
+  }
+}

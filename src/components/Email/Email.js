@@ -12,7 +12,7 @@ function Email() {
           label="Email"
           type="email"
           name="email"
-          //   autoComplete="email"
+          autoComplete="email"
           margin="normal"
           variant="outlined"
         />
