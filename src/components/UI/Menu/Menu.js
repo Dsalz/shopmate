@@ -17,7 +17,8 @@ const Menu = props => {
 };
 
 Menu.propTypes = {
-  links: PropTypes.array.isRequired
+  links: PropTypes.array.isRequired,
+  className: PropTypes.string
 };
 
 export default Menu;

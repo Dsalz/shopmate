@@ -1,0 +1,26 @@
+@import "../../../styles/variables";
+
+.bannerWithCategories {
+  background: $lightGray url(../../../img/banner-category.jpg);
+  background-size: cover;
+  padding: 50px 80px 70px;
+
+  h1 {
+    margin: 0 0 40px;
+  }
+
+  .menus {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    nav {
+      flex-basis: 30%;
+      flex-grow: initial;
+    }
+    li {
+      margin: 1px 0;
+      font-size: 16px;
+      display: block;
+    }
+  }
+}

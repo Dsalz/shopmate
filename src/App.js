@@ -2,7 +2,9 @@ import { createGenerateClassName, jssPreset } from "@material-ui/core/styles";
 import { create } from "jss";
 import React, { Component } from "react";
 import JssProvider from "react-jss/lib/JssProvider";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
+import Category from "./components/Category/Category";
 import Homepage from "./components/Homepage/Homepage";
 
 const generateClassName = createGenerateClassName();
@@ -15,9 +17,14 @@ const jss = create({
 class App extends Component {
   render() {
     return (
-      <JssProvider jss={jss} generateClassName={generateClassName}>
-        <Homepage />
-      </JssProvider>
+      <BrowserRouter>
+        <JssProvider jss={jss} generateClassName={generateClassName}>
+          <>
+            <Route path="/" exact component={Homepage} />
+            <Route path="/category" exact component={Category} />
+          </>
+        </JssProvider>
+      </BrowserRouter>
     );
   }
 }
