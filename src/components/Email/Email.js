@@ -5,8 +5,8 @@ import classes from "./Email.module.scss";
 
 function Email() {
   return (
-    <form noValidate autoComplete="off" className={classes.EmailForm}>
-      <div className={classes.Email}>
+    <form noValidate autoComplete="off" className={classes.emailForm}>
+      <div className={classes.email}>
         <TextField
           id="outlined-email-input"
           label="Email"

@@ -5,7 +5,7 @@
     color: $red;
   }
 
-  .LoginBar {
+  .loginBar {
     background: darken($smoke, 3%);
 
     a:hover,
@@ -14,7 +14,7 @@
       color: $darkGray;
     }
   }
-  .LoginMenu a,
+  .loginMenu a,
   .topBarMenu a {
     color: $darkGray;
     &:hover,

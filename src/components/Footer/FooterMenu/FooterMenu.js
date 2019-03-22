@@ -5,7 +5,7 @@ import classes from "./FooterMenu.module.scss";
 
 function FooterMenu(props) {
   return (
-    <div className={classes.FooterMenu}>
+    <div className={classes.footerMenu}>
       <Title size={5}>{props.title}</Title>
       <Menu links={props.links} />
     </div>

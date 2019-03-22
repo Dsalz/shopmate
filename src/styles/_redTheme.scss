@@ -1,6 +1,6 @@
 .redTheme {
   background-color: $red;
-  .LoginBar {
+  .loginBar {
     background: $white;
 
     a:hover,
@@ -9,7 +9,7 @@
       color: $darkGray;
     }
   }
-  .LoginMenu a {
+  .loginMenu a {
     color: $darkGray;
     &:hover,
     &:active,

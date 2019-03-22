@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 
-.LoginBar {
+.loginBar {
   color: $darkGray;
   font-size: 15px;
   font-weight: bold;
@@ -9,7 +9,7 @@
   padding-bottom: 6px;
   display: flex;
 
-  .Flag {
+  .languageSwitcher {
     background: url(../../img/gbr.png);
     background-size: cover;
     width: 24px;
@@ -29,7 +29,7 @@
     text-decoration: none;
   }
 
-  .LoginMenu {
+  .loginMenu {
     line-height: 1;
     ul li {
       margin: 10px;
