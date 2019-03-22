@@ -8,14 +8,14 @@ import links from "./Links";
 
 function BannerWithCategories() {
   return (
-    <div className={classes.bannerWithCategories}>
+    <aside className={classes.bannerWithCategories}>
       <Title>Mens Wear</Title>
       <div className={classes.menus}>
         <Menu links={links.left} />
         <Menu links={links.middle} />
         <Menu links={links.right} />
       </div>
-    </div>
+    </aside>
   );
 }
 
