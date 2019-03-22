@@ -1,4 +1,5 @@
 import React from "react";
+import ShoppingCartIcon from "../TopBar/ShoppingCartIcon/ShoppingCartIcon";
 import Menu from "../UI/Menu/Menu";
 import classes from "./LoginBar.module.scss";
 
@@ -9,9 +10,21 @@ const LoginBar = () => {
     { url: "/", title: "Help & Contact" }
   ];
   return (
-    <div className={`container loginBar ${classes.loginBar}`}>
-      Hi! <a href="/">Sign in</a> or <a href="/">Register</a>
-      <Menu links={links} className={`loginMenu ${classes.loginMenu}`} />
+    <div className={`container loginBar ${classes.LoginBar}`}>
+      <div className={classes.Registration}>
+        Hi! <a href="/">Sign in</a> or <a href="/">Register</a>
+      </div>
+      <Menu links={links} className={`loginMenu ${classes.LoginMenu}`} />
+      <div className={classes.FlagAndLanguage}>
+        <a className={classes.Flag} href="/">
+          EN
+        </a>
+        <span className={classes.LanguageSwitcher}>£ GBP</span>
+      </div>
+      <div className={classes.ShoppingCartAndBag}>
+        <ShoppingCartIcon />
+        <span>Your bag: £ 102.99</span>
+      </div>
     </div>
   );
 };
