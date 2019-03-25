@@ -1,7 +1,7 @@
 @import "../../../styles/variables";
 
 .jumbotron {
-  background: darken($smoke, 3%);
+  background: $darkSmoke;
   text-align: center;
   padding: 45px 235px;
   font-weight: bold;

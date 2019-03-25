@@ -1,12 +1,12 @@
 .whiteTheme {
   background-color: $white;
 
-  .logo {
+  .logo a {
     color: $red;
   }
 
   .loginBar {
-    background: darken($smoke, 3%);
+    background: $darkSmoke;
 
     a:hover,
     a:active,
@@ -19,7 +19,7 @@
     color: $darkGray;
     &:hover,
     &:active,
-    .active {
+    &.active {
       color: $red;
     }
   }

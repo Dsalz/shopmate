@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { NavLink } from "react-router-dom";
 import classes from "./Menu.module.scss";
 
 const Menu = props => {
@@ -8,7 +9,9 @@ const Menu = props => {
       <ul>
         {props.links.map(link => (
           <li key={link.title}>
-            <a href={link.url}>{link.title}</a>
+            <NavLink exact to={link.url}>
+              {link.title}
+            </NavLink>
           </li>
         ))}
       </ul>

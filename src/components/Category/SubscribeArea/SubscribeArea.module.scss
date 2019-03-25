@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+
+.subscribe {
+  background: $darkSmoke;
+  padding: 25px 0;
+  font-family: $fifthFont;
+
+  .subscribeArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    margin: 0 0 0 38px;
+  }
+}

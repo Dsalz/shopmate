@@ -13,7 +13,7 @@
     color: $darkGray;
     &:hover,
     &:active,
-    .active {
+    &.active {
       color: $red;
     }
   }

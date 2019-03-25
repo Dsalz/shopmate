@@ -13,7 +13,7 @@ function Jumbotron() {
         tote offers a roomy interior.
       </div>
 
-      <Email />
+      <Email btnText="Register" text="Email" />
     </div>
   );
 }

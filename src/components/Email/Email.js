@@ -3,13 +3,13 @@ import TextField from "@material-ui/core/TextField";
 import React from "react";
 import classes from "./Email.module.scss";
 
-function Email() {
+function Email(props) {
   return (
     <form noValidate autoComplete="off" className={classes.emailForm}>
       <div className={classes.email}>
         <TextField
           id="outlined-email-input"
-          label="Email"
+          label={props.text}
           type="email"
           name="email"
           autoComplete="email"
@@ -17,7 +17,7 @@ function Email() {
           variant="outlined"
         />
       </div>
-      <Button className="button button-small">Register</Button>
+      <Button className="button button-small">{props.btnText}</Button>
     </form>
   );
 }

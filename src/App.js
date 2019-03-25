@@ -20,8 +20,8 @@ class App extends Component {
       <BrowserRouter>
         <JssProvider jss={jss} generateClassName={generateClassName}>
           <>
-            <Route path="/" exact component={Homepage} />
-            <Route path="/category" exact component={Category} />
+          <Route path="/" exact component={Homepage} />
+          <Route path="/category/:name" exact component={Category} />
           </>
         </JssProvider>
       </BrowserRouter>

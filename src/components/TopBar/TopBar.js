@@ -13,9 +13,9 @@ const theme = "white";
 
 const TopBar = () => {
   const categories = [
-    { url: "/", title: "Women" },
-    { url: "/", title: "Men" },
-    { url: "/", title: "Kids" }
+    { url: "/category/women", title: "Women" },
+    { url: "/category/men", title: "Men" },
+    { url: "/category/kids", title: "Kids" }
   ];
 
   return (

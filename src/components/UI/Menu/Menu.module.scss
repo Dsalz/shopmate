@@ -19,7 +19,7 @@
 
     &:hover,
     &:active,
-    .active {
+    &.active {
       color: $darkGray;
     }
   }

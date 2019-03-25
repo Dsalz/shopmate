@@ -5,9 +5,9 @@ import classes from "./LoginBar.module.scss";
 
 const LoginBar = () => {
   const links = [
-    { url: "/", title: "Daily Deals" },
-    { url: "/", title: "Sell" },
-    { url: "/", title: "Help & Contact" }
+    { url: "/daily-deals", title: "Daily Deals" },
+    { url: "/sell", title: "Sell" },
+    { url: "/help-contact", title: "Help & Contact" }
   ];
   return (
     <div className={`container loginBar ${classes.loginBar}`}>
