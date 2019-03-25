@@ -74,3 +74,8 @@ p {
     background: darken($red, 10%);
   }
 }
+
+.price {
+  color: $red;
+  font-weight: bold;
+}

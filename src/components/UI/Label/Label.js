@@ -5,7 +5,8 @@ import classes from "./Label.module.scss";
 function Label(props) {
   const colors = {
     green: classes.green,
-    orange: classes.orange
+    orange: classes.orange,
+    red: classes.red
   };
 
   return (
