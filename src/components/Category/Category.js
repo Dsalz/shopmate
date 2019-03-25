@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import TopBar from "../TopBar/TopBar";
+import BannerEndCategory from "./BannerEndCategory/BannerEndCategory";
 import BannerWithCategories from "./BannerWithCategories/BannerWithCategories";
 import CategoryWithFilter from "./CategoryWithFilter/CategoryWithFilter";
 
@@ -10,6 +11,7 @@ function Category() {
       <TopBar />
       <BannerWithCategories />
       <CategoryWithFilter />
+      <BannerEndCategory />
       <Footer />
     </>
   );

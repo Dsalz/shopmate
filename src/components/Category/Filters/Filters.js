@@ -133,7 +133,7 @@ class Filters extends Component {
 
         <div className={classes.applyAndClearFilters}>
           <Button className="button button-small">Apply</Button>
-          <a class={classes.clearAll} href="/">
+          <a className={classes.clearAll} href="/">
             <span>X</span> Clear all
           </a>
         </div>
