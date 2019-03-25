@@ -20,9 +20,9 @@ function CategoryProduct(props) {
       <Button className="button button-small">Buy Now</Button>
       <div className="price">£14.99</div>
       <div>
-        <input type="radio" id="blue" name="color" value="blue" checked />
-        <input type="radio" id="green" name="color" value="green" checked />
-        <input type="radio" id="red" name="color" value="red" checked />
+        <input type="radio" name="color" value="blue" checked />
+        <input type="radio" name="color" value="green" checked />
+        <input type="radio" name="color" value="red" checked />
       </div>
 
       <div className={classes.productHover}>

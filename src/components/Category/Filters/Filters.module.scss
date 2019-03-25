@@ -1,0 +1,84 @@
+@import "../../../styles/variables";
+
+.filtersAside {
+  background: lighten($smoke, 1%);
+}
+.selectedFilters {
+  padding: 15px 20px;
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .selectedFilter {
+    color: darken($lightGray, 7%);
+    font-family: $fourthFont;
+    font-size: 13px;
+  }
+  .filterValue {
+    color: $gray;
+    font-weight: 400;
+    padding-left: 3px;
+  }
+}
+
+.theFilters {
+  background: $white;
+  padding: 0 20px;
+  box-shadow: 0 -1px 0 0 rgba($black, 0.1);
+
+  .filter {
+    padding: 28px 0 15px;
+  }
+  .filterName {
+    color: $lightGray;
+    margin-bottom: 10px;
+  }
+  .filterSizes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .size {
+    color: $gray;
+    font: 14px/1.9 $fourthFont;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    width: 55px;
+    background: darken($smoke, 3%);
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background: $red;
+      color: $white;
+    }
+  }
+}
+
+.applyAndClearFilters {
+  box-shadow: 0 -1px 0 0 rgba($black, 0.1);
+  padding: 20px;
+  text-align: center;
+  
+  .clearAll,
+  button {
+    display: inline-block;
+  }
+  button {
+    margin-right: 10px;
+  }
+  .clearAll {
+    color: $red;
+    font-family: $fourthFont;
+    font-size: 13px;
+    cursor: pointer;
+    &:hover {
+      color: $darkGray;
+    }
+    span {
+      font-weight: bold;
+      font-family: $mainFont;
+    }
+  }
+}
