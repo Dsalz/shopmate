@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.productDetails {
+  display: flex;
+  padding: 30px 50px;
+  h1 {
+    font-size: 24px;
+    font-family: $mainFont;
+    letter-spacing: 1px;
+  }
+  .productImages {
+    flex-basis: 40%;
+  }
+  .productFeatures {
+    flex-basis: 60%;
+  }
+}

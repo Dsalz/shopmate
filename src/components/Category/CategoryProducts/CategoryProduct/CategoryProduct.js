@@ -1,5 +1,6 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
+import { Link } from "react-router-dom";
 import Paper from "../../../../hoc/Paper/Paper";
 import heart from "../../../../img/heart.png";
 import top from "../../../../img/top.jpg";
@@ -27,7 +28,9 @@ function CategoryProduct(props) {
 
       <div className={classes.productHover}>
         <img className="addToWishlist" src={heart} alt="add to wishlist" />
-        <Button className="button button-small">Quick View</Button>
+        <Link to="/product/1">
+          <Button className="button button-small">Quick View</Button>
+        </Link>
       </div>
     </div>
   );

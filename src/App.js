@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
 import Category from "./components/Category/Category";
 import Homepage from "./components/Homepage/Homepage";
+import Product from "./components/Product/Product";
 
 const generateClassName = createGenerateClassName();
 const jss = create({
@@ -20,8 +21,9 @@ class App extends Component {
       <BrowserRouter>
         <JssProvider jss={jss} generateClassName={generateClassName}>
           <>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/category/:name" exact component={Category} />
+            <Route path="/" exact component={Homepage} />
+            <Route path="/category/:name" exact component={Category} />
+            <Route path="/product/:id" exact component={Product} />
           </>
         </JssProvider>
       </BrowserRouter>
