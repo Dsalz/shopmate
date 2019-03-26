@@ -1,0 +1,57 @@
+@import "../../../styles/variables";
+
+.footer {
+  background: $darkGray;
+  text-align: center;
+  padding: 50px 0 44px;
+
+  ul li {
+    margin: 0 20px 20px;
+  }
+
+  a {
+    font-size: 24px;
+    &:hover {
+      color: $gray;
+    }
+  }
+  .copyRight,
+  .copyRight a {
+    color: $gray;
+    font-size: 13px;
+  }
+  .copyRight {
+    span {
+      margin: 0 7px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    a:hover {
+      color: $white;
+    }
+  }
+  .social {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    margin: 0 auto 17px;
+    a {
+      background: url(../../../img/social.png) no-repeat;
+      background-size: 191px auto;
+      height: 40px;
+      width: 40px;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .instagram {
+      background-position: -151px 0px;
+    }
+    .pinterest {
+      background-position: -100px 0px;
+    }
+    .facebook {
+      background-position: -50px 0;
+    }
+  }
+}

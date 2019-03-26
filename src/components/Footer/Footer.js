@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "./Copyright/Copyright";
 import classes from "./Footer.module.scss";
 import FooterMenu from "./FooterMenu/FooterMenu";
 
@@ -56,7 +57,7 @@ function Footer() {
       <FooterMenu title="Questions" links={links.questions} />
       <FooterMenu title="What's in store" links={links.store} />
       <FooterMenu title="Folow Us" links={links.social} />
-      <div className={classes.copyRight}>©2016 shopmate Ltd</div>
+      <Copyright cls={classes.copyRight} />
     </footer>
   );
 }
