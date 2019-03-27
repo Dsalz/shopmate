@@ -1,4 +1,4 @@
-@import "../../../styles/variables";
+@import "../../../assets/styles/variables";
 
 .footer {
   background: $darkGray;
@@ -36,7 +36,7 @@
     justify-content: space-between;
     margin: 0 auto 17px;
     a {
-      background: url(../../../img/social.png) no-repeat;
+      background: url(../../../assets/img/social.png) no-repeat;
       background-size: 191px auto;
       height: 40px;
       width: 40px;

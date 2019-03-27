@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "../../UI/Menu/Menu";
-import Title from "../../UI/Title/Title";
+import Menu from "../../../UI/Menu/Menu";
+import Title from "../../../UI/Title/Title";
 import classes from "./FooterMenu.module.scss";
 
 function FooterMenu(props) {

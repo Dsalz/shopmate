@@ -5,7 +5,7 @@ import FormGroup from "@material-ui/core/FormGroup";
 import Radio from "@material-ui/core/Radio";
 import React, { Component } from "react";
 import Paper from "../../../hoc/Paper/Paper";
-import SliderRange from "../../UI/SliderRange/SliderRange";
+import SliderRange from "../../../UI/SliderRange/SliderRange";
 import classes from "./Filters.module.scss";
 
 class Filters extends Component {

@@ -1,8 +1,8 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
+import bag from "../../assets/img/bag-vuitton.png";
 import Paper from "../../hoc/Paper/Paper";
-import bag from "../../img/bag-vuitton.png";
-import ImageWithLabel from "../UI/ImageWithLabel/ImageWithLabel";
+import ImageWithLabel from "../../UI/ImageWithLabel/ImageWithLabel";
 import classes from "./SaleBanner.module.scss";
 
 function SaleBanner() {

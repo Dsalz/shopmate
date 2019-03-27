@@ -2,8 +2,8 @@ import { Button } from "@material-ui/core";
 import React from "react";
 import Container from "../../../hoc/Container/Container";
 import Paper from "../../../hoc/Paper/Paper";
-import BreadCrumbs from "../../UI/BreadCrumbs/BreadCrumbs";
-import Title from "../../UI/Title/Title";
+import BreadCrumbs from "../../../UI/BreadCrumbs/BreadCrumbs";
+import Title from "../../../UI/Title/Title";
 import classes from "./ProductDetails.module.scss";
 
 function ProductDetails() {

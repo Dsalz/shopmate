@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Menu from "../../../UI/Menu/Menu";
 import Copyright from "../../Footer/Copyright/Copyright";
-import Menu from "../../UI/Menu/Menu";
 import classes from "./Footer.module.scss";
 
 function Footer() {

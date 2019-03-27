@@ -1,5 +1,5 @@
 import React from "react";
-import Email from "../../Email/Email";
+import Email from "../../components/Email/Email";
 import Title from "../Title/Title";
 import classes from "./Jumbotron.module.scss";
 

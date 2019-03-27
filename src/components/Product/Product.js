@@ -1,7 +1,7 @@
 import React from "react";
+import Title from "../../UI/Title/Title";
 import Footer from "../Category/Footer/Footer";
 import TopBar from "../TopBar/TopBar";
-import Title from "../UI/Title/Title";
 import ProductDetails from "./ProductDetails/ProductDetails";
 
 function Product() {

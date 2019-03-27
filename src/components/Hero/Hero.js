@@ -1,7 +1,7 @@
 import React from "react";
-import heroImg1x from "../../img/hero-1.jpg";
-import heroImg2x from "../../img/hero-1@2x.jpg";
-import heroImg3x from "../../img/hero-1@3x.jpg";
+import heroImg1x from "../../assets/img/hero-1.jpg";
+import heroImg2x from "../../assets/img/hero-1@2x.jpg";
+import heroImg3x from "../../assets/img/hero-1@3x.jpg";
 
 const Hero = () => {
   return (

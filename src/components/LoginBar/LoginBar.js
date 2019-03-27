@@ -1,6 +1,6 @@
 import React from "react";
+import Menu from "../../UI/Menu/Menu";
 import ShoppingCartIcon from "../TopBar/ShoppingCartIcon/ShoppingCartIcon";
-import Menu from "../UI/Menu/Menu";
 import classes from "./LoginBar.module.scss";
 
 const LoginBar = () => {

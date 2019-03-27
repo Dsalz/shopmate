@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "../../UI/Title/Title";
 import BannerWithPaper from "../BannerWithPaper/BannerWithPaper";
+import Title from "../Title/Title";
 import classes from "./SquareBanner.module.scss";
 
 const SquareBanner = props => {

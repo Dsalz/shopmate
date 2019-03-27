@@ -1,11 +1,11 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
 import { Link } from "react-router-dom";
+import heart from "../../../../assets/img/heart.png";
+import top from "../../../../assets/img/top.jpg";
 import Paper from "../../../../hoc/Paper/Paper";
-import heart from "../../../../img/heart.png";
-import top from "../../../../img/top.jpg";
-import ImageWithLabel from "../../../UI/ImageWithLabel/ImageWithLabel";
-import Title from "../../../UI/Title/Title";
+import ImageWithLabel from "../../../../UI/ImageWithLabel/ImageWithLabel";
+import Title from "../../../../UI/Title/Title";
 import classes from "./CategoryProduct.module.scss";
 
 function CategoryProduct(props) {

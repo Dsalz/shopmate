@@ -1,11 +1,11 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
-import menImg from "../../img/men.jpg";
-import startingLineImg from "../../img/starting-line.jpeg";
-import BannerWithPaper from "../UI/BannerWithPaper/BannerWithPaper";
-import ImageWithLabel from "../UI/ImageWithLabel/ImageWithLabel";
-import SquareBanner from "../UI/SquareBanner/SquareBanner";
-import Title from "../UI/Title/Title";
+import menImg from "../../assets/img/men.jpg";
+import startingLineImg from "../../assets/img/starting-line.jpeg";
+import BannerWithPaper from "../../UI/BannerWithPaper/BannerWithPaper";
+import ImageWithLabel from "../../UI/ImageWithLabel/ImageWithLabel";
+import SquareBanner from "../../UI/SquareBanner/SquareBanner";
+import Title from "../../UI/Title/Title";
 import classes from "./Banners.module.scss";
 
 function Banners() {
