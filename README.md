@@ -6,6 +6,8 @@ In order to avoid marking style attributes with `!important`, I've changed the [
 
 Hero Image on home is responsive using srcset
 Paper HOC uses Flexbox
+propsValidation file creates custom validation
+category pare uses css grid
 
 ## TODOS:
 

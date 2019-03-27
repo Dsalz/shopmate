@@ -1,0 +1,14 @@
+.star {
+  background: url("../../../assets/img/stars.jpg") no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 45px auto;
+  margin-right: 5px;
+  .full {
+    background-position: 0 0;
+  }
+}
+.half {
+  font-size: 14px;
+  background-position: -25px 0;
+}

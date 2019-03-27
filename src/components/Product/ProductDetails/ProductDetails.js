@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../../../hoc/Container/Container";
 import Paper from "../../../hoc/Paper/Paper";
 import BreadCrumbs from "../../../UI/BreadCrumbs/BreadCrumbs";
+import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
 import classes from "./ProductDetails.module.scss";
 
@@ -26,6 +27,7 @@ function ProductDetails() {
       <div className={classes.productImages}>Images</div>
       <div className={classes.productFeatures}>
         <BreadCrumbs links={links} />
+        <Stars size={4} />
         <Title size={1}>
           Super Oversized T-Shirt With Raw Sleeves In Brown
         </Title>
