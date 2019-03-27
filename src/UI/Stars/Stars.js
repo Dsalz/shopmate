@@ -1,5 +1,5 @@
 import React from "react";
-import { starSize } from "../../propsValidation";
+import { numberBetween1and5 } from "../../propsValidation";
 import Star from "./Star/Star";
 import classes from "./Stars.module.scss";
 
@@ -16,7 +16,7 @@ function Stars(props) {
 }
 
 Stars.propTypes = {
-  size: starSize
+  size: numberBetween1and5
 };
 
 export default Stars;
