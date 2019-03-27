@@ -9,6 +9,7 @@ import Sizes from "../../../UI/Sizes/Sizes";
 import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
 import ProductImages from "../ProductImages/ProductImages";
+import ProductReviews from "../ProductReviews/ProductReviews";
 import classes from "./ProductDetails.module.scss";
 
 const ProductDetails = () => {
@@ -28,20 +29,23 @@ const ProductDetails = () => {
   ];
 
   return (
-    <main className={classes.productDetails}>
-      <ProductImages />
-      <div className={classes.productFeatures}>
-        <BreadCrumbs links={links} />
-        <Stars size={4} />
-        <Title size={1}>
-          Super Oversized T-Shirt With Raw Sleeves In Brown
-        </Title>
-        <div className={classes.price}>£13.99</div>
-        <Colors />
-        <Sizes />
-        <Quantity />
-        <Button className="button button-large">Add to cart</Button>
+    <main>
+      <div className={classes.productDetails}>
+        <ProductImages />
+        <div className={classes.productFeatures}>
+          <BreadCrumbs links={links} />
+          <Stars size={4} />
+          <Title size={1}>
+            Super Oversized T-Shirt With Raw Sleeves In Brown
+          </Title>
+          <div className={classes.price}>£13.99</div>
+          <Colors />
+          <Sizes />
+          <Quantity />
+          <Button className="button button-large">Add to cart</Button>
+        </div>
       </div>
+      <ProductReviews />
     </main>
   );
 };

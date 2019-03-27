@@ -1,0 +1,34 @@
+@import "../../../assets/styles/variables";
+
+.productReviews {
+  background: lighten($smoke, 1%);
+  padding: 42px 79px;
+  h4 {
+    margin: 0 0 30px;
+  }
+  .reviewDetails {
+    display: flex;
+    margin-bottom: 25px;
+    .reviewLeft {
+      flex-basis: 25%;
+    }
+    .reviewRight {
+      flex-basis: 75%;
+    }
+  }
+  .reviewDescription {
+    font-weight: 300;
+    font-family: $thirdFont;
+  }
+  .reviewTime {
+    color: $gray;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: $thirdFont;
+  }
+  .reviewNick {
+    font-family: $fifthFont;
+    font-weight: normal;
+    margin-top: 24px;
+  }
+}

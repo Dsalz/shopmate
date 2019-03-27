@@ -93,3 +93,9 @@ p {
     font-size: 19px;
   }
 }
+
+hr {
+  border: none;
+  background: lighten($lightGray, 20%);
+  height: 1px;
+}
