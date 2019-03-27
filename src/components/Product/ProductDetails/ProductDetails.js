@@ -3,11 +3,12 @@ import React from "react";
 import Container from "../../../hoc/Container/Container";
 import Paper from "../../../hoc/Paper/Paper";
 import BreadCrumbs from "../../../UI/BreadCrumbs/BreadCrumbs";
+import Colors from "../../../UI/Colors/Colors";
 import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
 import classes from "./ProductDetails.module.scss";
 
-function ProductDetails() {
+const ProductDetails = () => {
   const links = [
     {
       url: "/",
@@ -22,6 +23,7 @@ function ProductDetails() {
       title: "Men's clothing & Accesories"
     }
   ];
+
   return (
     <main className={classes.productDetails}>
       <div className={classes.productImages}>Images</div>
@@ -31,10 +33,12 @@ function ProductDetails() {
         <Title size={1}>
           Super Oversized T-Shirt With Raw Sleeves In Brown
         </Title>
+        <div className={classes.price}>£13.99</div>
+        <Colors />
         <Button className="button button-large">Add to cart</Button>
       </div>
     </main>
   );
-}
+};
 
 export default Container(Paper(ProductDetails));

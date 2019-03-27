@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import React from "react";
+import { numberBetween1and6 } from "../../propsValidation";
 
 function Title(props) {
   switch (props.size) {
@@ -19,7 +19,7 @@ function Title(props) {
 }
 
 Title.propTypes = {
-  size: PropTypes.number
+  size: numberBetween1and6
 };
 
 export default Title;

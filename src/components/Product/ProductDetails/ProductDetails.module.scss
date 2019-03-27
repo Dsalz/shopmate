@@ -14,4 +14,11 @@
   .productFeatures {
     flex-basis: 60%;
   }
+  .price {
+    color: $red;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 15px 0 20px;
+  }
 }
