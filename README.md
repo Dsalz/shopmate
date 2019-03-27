@@ -9,9 +9,13 @@ Paper HOC uses Flexbox
 propsValidation file creates custom validation
 category pare uses css grid
 
+Brands is stateful
+
 ## TODOS:
 
 Add [webfontloader](https://github.com/typekit/webfontloader) - https://scotch.io/@micwanyoike/how-to-add-fonts-to-a-react-project
+
+Cleanup App.scss
 
 ---
 

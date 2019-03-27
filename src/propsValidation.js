@@ -12,11 +12,14 @@ export function numberBetween1and5(props, propName, componentName) {
   }
 }
 
-// Example: Allowed heading is 1,2,3,4,5,6
+// Example: Allowed heading is 1,2,3,4,5,6 or undefined
 export function numberBetween1and6(props, propName, componentName) {
   const err = `Invalid prop ${propName} supplied to ${componentName}. ${propName} must be an integer between 1 and 6`;
 
-  if (!isNumberType(props[propName]) || !numberBetween(props[propName], 1, 6)) {
+  if (
+    props[propName] !== undefined &&
+    (!isNumberType(props[propName]) || !numberBetween(props[propName], 1, 6))
+  ) {
     return new Error(err);
   }
 }

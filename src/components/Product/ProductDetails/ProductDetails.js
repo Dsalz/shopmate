@@ -4,6 +4,7 @@ import Container from "../../../hoc/Container/Container";
 import Paper from "../../../hoc/Paper/Paper";
 import BreadCrumbs from "../../../UI/BreadCrumbs/BreadCrumbs";
 import Colors from "../../../UI/Colors/Colors";
+import Sizes from "../../../UI/Sizes/Sizes";
 import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
 import classes from "./ProductDetails.module.scss";
@@ -35,6 +36,7 @@ const ProductDetails = () => {
         </Title>
         <div className={classes.price}>£13.99</div>
         <Colors />
+        <Sizes />
         <Button className="button button-large">Add to cart</Button>
       </div>
     </main>

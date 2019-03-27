@@ -31,28 +31,10 @@
   .filter {
     padding: 28px 0 15px;
   }
-  .filterName {
+  h6 {
     color: $lightGray;
     margin-bottom: 10px;
-  }
-  .filterSizes {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .size {
-    color: $gray;
-    font: 14px/1.9 $fourthFont;
-    margin-right: 7px;
-    margin-bottom: 7px;
-    width: 55px;
-    background: $darkSmoke;
-    height: 24px;
-    text-align: center;
-    cursor: pointer;
-    &:hover {
-      background: $red;
-      color: $white;
-    }
+    font-weight: normal;
   }
 }
 
