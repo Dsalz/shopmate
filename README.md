@@ -10,6 +10,7 @@ propsValidation file creates custom validation
 category pare uses css grid
 
 Brands is stateful
+ProductImages uses `useState()` hook
 
 ## TODOS:
 

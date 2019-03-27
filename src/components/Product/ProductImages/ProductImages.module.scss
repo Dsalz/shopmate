@@ -1,0 +1,12 @@
+.productImages {
+  flex-basis: 40%;
+  .secodaryImages {
+    text-align: center;
+    img {
+      cursor: pointer;
+      width: 72px;
+      height: auto;
+      margin: 40px 5px 10px;
+    }
+  }
+}

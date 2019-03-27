@@ -8,6 +8,7 @@ import Quantity from "../../../UI/Quantity/Quantity";
 import Sizes from "../../../UI/Sizes/Sizes";
 import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
+import ProductImages from "../ProductImages/ProductImages";
 import classes from "./ProductDetails.module.scss";
 
 const ProductDetails = () => {
@@ -28,7 +29,7 @@ const ProductDetails = () => {
 
   return (
     <main className={classes.productDetails}>
-      <div className={classes.productImages}>Images</div>
+      <ProductImages />
       <div className={classes.productFeatures}>
         <BreadCrumbs links={links} />
         <Stars size={4} />
