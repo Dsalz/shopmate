@@ -1,0 +1,18 @@
+@import "../../../assets/styles/variables";
+
+.similarProducts {
+  h4 {
+    color: $darkGray;
+    margin: 0 0 10px;
+  }
+  .theSimilarProducts {
+    display: flex;
+    .title {
+      margin: 0;
+    }
+    > div {
+      margin-top: 0;
+      margin-right: $gap;
+    }
+  }
+}
