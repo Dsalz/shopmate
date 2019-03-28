@@ -2,6 +2,7 @@ import React from "react";
 import Stars from "../../../UI/Stars/Stars";
 import Title from "../../../UI/Title/Title";
 import classes from "./ProductReviews.module.scss";
+import ReviewForm from "./ReviewForm/ReviewForm";
 
 function ProductReviews() {
   return (
@@ -19,9 +20,20 @@ function ProductReviews() {
             packet I knew this was quality, put it on and I was right!! Well
             done
           </div>
+          <div className={classes.reviewIcons}>
+            <div className={classes.reviewIcon}>
+              <div className={classes.reviewIconImage} />
+              <div className={classes.reviewIconText}>113</div>
+            </div>
+            <div className={classes.reviewIcon}>
+              <div className={classes.reviewCommentImage} />
+              <div className={classes.reviewIconText}>6</div>
+            </div>
+          </div>
         </div>
       </div>
       <hr />
+      <ReviewForm/>
     </div>
   );
 }

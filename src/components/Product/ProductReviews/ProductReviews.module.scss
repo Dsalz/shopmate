@@ -4,6 +4,7 @@
   background: lighten($smoke, 1%);
   padding: 42px 79px;
   h4 {
+    color: $darkGray;
     margin: 0 0 30px;
   }
   .reviewDetails {
@@ -30,5 +31,30 @@
     font-family: $fifthFont;
     font-weight: normal;
     margin-top: 24px;
+  }
+  .reviewIcons {
+    display: flex;
+    margin-top: 25px;
+    font-weight: 300;
+    font-family: $thirdFont;
+    .reviewIcon {
+      display: flex;
+      align-items: center;
+    }
+    .reviewIconImage,
+    .reviewCommentImage {
+      background: $darkSmoke url("../../../assets/img/heart.png") no-repeat
+        center 54%/19px auto;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .reviewCommentImage {
+      background-image: url("../../../assets/img/comment.png");
+    }
+    .reviewIcon {
+      margin-right: 40px;
+    }
   }
 }
