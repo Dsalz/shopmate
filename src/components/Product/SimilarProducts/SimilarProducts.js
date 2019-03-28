@@ -11,6 +11,7 @@ function SimilarProducts() {
         <CategoryProduct name="Men's Knitwear Offers" />
         <CategoryProduct name="Men's Shirts Offers" />
         <CategoryProduct name="New Look T-Shirt In Gradient Fade" />
+        <CategoryProduct name="New Look T-Shirt" />
       </div>
     </div>
   );

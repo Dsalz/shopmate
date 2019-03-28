@@ -5,7 +5,7 @@ import classes from "./Jumbotron.module.scss";
 
 function Jumbotron() {
   return (
-    <div className={`container ${classes.jumbotron}`}>
+    <div className={classes.jumbotron}>
       <Title size={4}>10% Discount for your subscription</Title>
       <div>
         Carry the day in style with this extra-large tote crafted in our chic

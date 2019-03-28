@@ -23,11 +23,13 @@ const TopBar = () => {
       <AppBar className={getClasses(classes.appBar, theme)}>
         <LoginBar />
         <Toolbar>
-          <Logo />
-          <Menu links={categories} className="topBarMenu" />
-          <SearchBar />
-          <ShoppingCartIcon />
-          <MenuIconButton />
+          <div className={`container ${classes.toolbar}`}>
+            <Logo />
+            <Menu links={categories} className="topBarMenu" />
+            <SearchBar />
+            <ShoppingCartIcon />
+            <MenuIconButton />
+          </div>
         </Toolbar>
       </AppBar>
     </>

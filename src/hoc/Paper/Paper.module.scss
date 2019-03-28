@@ -25,10 +25,16 @@
   &.square {
     width: 300px;
     height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+
+    .bgImage {
+      text-align: center;
+      height: 100%;
+      flex-wrap: wrap;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     div {
       text-align: center;

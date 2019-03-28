@@ -1,13 +1,14 @@
 import Button from "@material-ui/core/Button";
 import React from "react";
 import bag from "../../assets/img/bag-vuitton.png";
+import Container from "../../hoc/Container/Container";
 import Paper from "../../hoc/Paper/Paper";
 import ImageWithLabel from "../../UI/ImageWithLabel/ImageWithLabel";
 import classes from "./SaleBanner.module.scss";
 
 function SaleBanner() {
   return (
-    <div className={`container ${classes.saleBanner}`}>
+    <div className={classes.saleBanner}>
       <ImageWithLabel title="bag" img={bag} label="sale" />
       <div className={classes.text}>
         <h2>Vera Bradley</h2>
@@ -23,4 +24,4 @@ function SaleBanner() {
   );
 }
 
-export default Paper(SaleBanner);
+export default Container(Paper(SaleBanner));

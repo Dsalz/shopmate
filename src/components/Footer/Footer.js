@@ -54,10 +54,12 @@ function Footer() {
   };
   return (
     <footer className={classes.footer}>
-      <FooterMenu title="Questions" links={links.questions} />
-      <FooterMenu title="What's in store" links={links.store} />
-      <FooterMenu title="Folow Us" links={links.social} />
-      <Copyright cls={classes.copyRight} />
+      <div className="container">
+        <FooterMenu title="Questions" links={links.questions} />
+        <FooterMenu title="What's in store" links={links.store} />
+        <FooterMenu title="Folow Us" links={links.social} />
+        <Copyright cls={classes.copyRight} />
+      </div>
     </footer>
   );
 }
