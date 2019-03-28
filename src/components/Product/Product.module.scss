@@ -1,0 +1,12 @@
+@import "../../assets/styles/variables";
+
+.footer {
+  background: $white;
+  a,
+  .copyright a {
+    color: $darkGray;
+    &:hover {
+      color: $red;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import Menu from "../../../UI/Menu/Menu";
 import Copyright from "../../Footer/Copyright/Copyright";
 import classes from "./Footer.module.scss";
 
-function Footer() {
+function Footer(props) {
   const links = [
     {
       url: "/women",
@@ -28,7 +28,7 @@ function Footer() {
     }
   ];
   return (
-    <footer className={classes.footer}>
+    <footer className={`${classes.footer} ${props.footerCls}`}>
       <Menu links={links} />
       <div className={classes.social}>
         <Link to="/" className={classes.instagram} />
@@ -36,7 +36,7 @@ function Footer() {
         <Link to="/" className={classes.twitter} />
         <Link to="/" className={classes.facebook} />
       </div>
-      <Copyright cls={classes.copyRight}>
+      <Copyright cls={`${classes.copyRight}  ${props.copyrightCls}`}>
         <span>&bull;</span>
         <Link to="/contact">Contact</Link>
         <span>&bull;</span>
