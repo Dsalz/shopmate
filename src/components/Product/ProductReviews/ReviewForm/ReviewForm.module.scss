@@ -1,0 +1,28 @@
+@import "../../../../assets/styles/variables";
+
+.reviewGrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: $gap;
+  .textField label {
+    display: none;
+  }
+  .label {
+    font-family: $fifthFont;
+  }
+  .reviewGuideLine {
+    color: $lightGray;
+    font-size: 13px;
+    margin-top: 10px;
+    a {
+      color: $red;
+      margin-left: 5px;
+      &:hover {
+        color: $darkGray;
+      }
+    }
+  }
+  button {
+    margin-top: 30px;
+  }
+}

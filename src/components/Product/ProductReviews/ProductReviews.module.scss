@@ -8,14 +8,10 @@
     margin: 0 0 30px;
   }
   .reviewDetails {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: $gap;
     margin-bottom: 25px;
-    .reviewLeft {
-      flex-basis: 25%;
-    }
-    .reviewRight {
-      flex-basis: 75%;
-    }
   }
   .reviewDescription {
     font-weight: 300;

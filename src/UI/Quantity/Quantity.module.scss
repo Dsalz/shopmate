@@ -12,13 +12,10 @@
     height: 36px;
   }
   input {
-    color: $darkGray;
-    font: bold 16px $mainFont;
     width: 22px;
     border-radius: 30px;
     padding: 7.5px 5px 7.5px 15px;
     text-align: center;
     margin: 0 2px;
-    border: 1px solid darken($darkSmoke, 5.5%);
   }
 }

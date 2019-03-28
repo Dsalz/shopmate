@@ -99,3 +99,32 @@ hr {
   background: lighten($lightGray, 20%);
   height: 1px;
 }
+
+.input {
+  color: $darkGray;
+  font: bold 16px $mainFont;
+  border: 1px solid darken($darkSmoke, 5.5%);
+  margin: 0;
+  background: $white;
+  border-radius: 5px;
+  width: 100%;
+
+  &:hover:before,
+  > div:hover:before {
+    border-color: $darkSmoke !important;
+  }
+  &:before,
+  > div:before {
+    border-color: transparent;
+  }
+  &:after,
+  > div:after {
+    border-color: $red;
+  }
+  input {
+    padding: 10px;
+  }
+  textarea {
+    padding: 5px 10px;
+  }
+}
