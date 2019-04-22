@@ -1,5 +1,6 @@
 ## Styling
 
+This is a real life app example showcasing React.js features.
 This app uses Material UI.
 Overrides are done with CSS Modules because I prefer to keep my components lean, for scalability and ease of debugging purposes.
 In order to avoid marking style attributes with `!important`, I've changed the [CSS injection order](https://material-ui.com/customization/css-in-js/#css-injection-order)
